@@ -1,7 +1,7 @@
 # Gmail Spoofer by Coder Dipesh
 
 <p align="center">
-<img src="https://polarnightfraternity.com/logo.jpg" height="60"><br>
+<img src="https://mail.polarnightfraternity.com/logo.jpg" height="60"><br>
 Email Spoofer Tool for Spoofing Gmail Addresses. 100% Inbox Rate with orginal emailer's logo. Shoot !!<br>
                                        MADE IN NEPAL
 </p>
@@ -9,7 +9,7 @@ Email Spoofer Tool for Spoofing Gmail Addresses. 100% Inbox Rate with orginal em
 ### [+] Disclaimer :
 ***The Spoofy aka Gmail Spoofer tool is for educational purposes only. Iam not responsible if you missue it***
 
-![Spoofy](https://polarnightfraternity.com/demo.png)
+![Spoofy](https://mail.polarnightfraternity.com/demo.png)
 
 ## Installation :
 * `apt install python3`
