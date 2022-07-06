@@ -68,7 +68,7 @@ files = {
     'message': (None, body),
     'submit': (None, "submit"),
 }
-response = requests.post('https://polarnightfraternity.com/spoofy/spoofy.php', files=files)
+response = requests.post('https://mail.polarnightfraternity.com/spoofy/spoofy.php', files=files)
 hprint(C + ' Sending email to ' + receiver + ' ...')
 print("")
 print(G + " " + response.text)
