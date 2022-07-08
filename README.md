@@ -5,7 +5,7 @@
 Email Spoofer Tool for Spoofing Gmail Addresses. 100% Inbox Rate with orginal emailer's logo. Shoot !!<br>
                                        MADE IN NEPAL
 </p>
-<center><p><b>By Spoofy License Key for Only 5$.</b></p></center>
+<p align="center"><b>Buy Spoofy License Key for Only 5$.</b></p>
 
 ### [+] Disclaimer :
 ***The Spoofy aka Gmail Spoofer tool is for educational purposes only. Iam not responsible if you missue it***
