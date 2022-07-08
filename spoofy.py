@@ -1,16 +1,13 @@
 import os
 import sys
 import time
-from os import system
 from time import sleep
+import requests
+from os import system
 
 #This script is developed by Dipesh Dhakal.
 #This is created for educational purposes only.
-
-try:
-    import requests
-except ImportError:
-    os.system('pip3 install requests')
+#You won't find anything to make this script work, ALl you need is 5$.
 
 try:
 	request = requests.get("https://www.google.com/search?q=freemailsender.com", timeout=3)
@@ -49,6 +46,8 @@ print (logo)
 hprint(G + ' Starting Spoofy for Sending Emails ...')
 sleep(2)
 print ("")
+license = input(G + " Enter License Key" + C + " --> " + Y)
+print ("")
 name = input(G + " Enter Sender's Name" + C + " --> " + Y)
 print ("")
 sender = input(G + " Enter Sender's Email" + C + " --> " + Y)
@@ -61,6 +60,7 @@ body = input(G + " Enter the Message" + C + " --> " + Y)
 print("")
 
 files = {
+    'license': (None, license),
     'name': (None, name),
     'subject': (None, subject),
     'email': (None, receiver),
@@ -72,3 +72,11 @@ response = requests.post('https://mail.polarnightfraternity.com/spoofy/spoofy.ph
 hprint(C + ' Sending email to ' + receiver + ' ...')
 print("")
 print(G + " " + response.text)
+print("")
+
+
+
+if "BTC" in response.text:
+    print(R + " Talk Live With Me --> https://t.me/akadhakal")
+else:
+ print("")
